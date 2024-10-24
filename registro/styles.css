@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #2e2c3b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  background-color: #3a384d;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.left-section {
+  background-color: #636d78;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  font-family: "Rowdies", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.smartwatch {
+  max-width: 80%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.crearcuenta {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.crearcuenta h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.crearcuenta p {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.crearcuenta form {
+  display: flex;
+  flex-direction: column;
+}
+
+.crearcuenta form input {
+  font-family: "Poppins", sans-serif;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #262533;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.crearcuenta form input::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #888;
+}
+
+.crearcuenta form input[type="submit"] {
+  background-color: #7a5dfc;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.crearcuenta form input[type="submit"]:hover {
+  background-color: #6a4ee0;
+  font-family: "Poppins", sans-serif;
+}
+
+.crearcuenta .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.crearcuenta .checkbox input {
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+.crearcuenta .social-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.crearcuenta .social-buttons button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.crearcuenta .social-buttons button:hover {
+  background-color: #444;
+}
+
+.crearcuenta a {
+  color: #7a5dfc;
+  text-decoration: none;
+}
+
+.crearcuenta a:hover {
+  text-decoration: underline;
+}
+
+.oinicia {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.iconos {
+  width: 20px;
+  height: 20px;
+}
+
+.inputcorto {
+  display: flex;
+  gap: 15px;
+}
+
+.inputcorto input {
+  width: 50%;
+}
+
+.fixed-image {
+  position: fixed; /* Makes the image fixed relative to the viewport */
+  top: 20px; /* 20 pixels from the top of the viewport */
+  left: 20px; /* 20 pixels from the left of the viewport */
+  width: 100px; /* Optional: Adjust the width of the image */
+  height: auto; /* Keeps the aspect ratio */
+}
+
+.fixed1 {
+  position: fixed; /* Makes the image fixed relative to the viewport */
+  top: 430px; /* 20 pixels from the top of the viewport */
+  left: 565px; /* 20 pixels from the left of the viewport */
+  width: 120px; /* Optional: Adjust the width of the image */
+  height: auto; /* Keeps the aspect ratio */
+}
+
+.fixed2 {
+  position: fixed; /* Makes the image fixed relative to the viewport */
+  top: 290px; /* 20 pixels from the top of the viewport */
+  left: 335px; /* 20 pixels from the left of the viewport */
+  width: 100px; /* Optional: Adjust the width of the image */
+  height: auto; /* Keeps the aspect ratio */
+}
+
+.fixed3 {
+  position: fixed; /* Makes the image fixed relative to the viewport */
+  top: 310px; /* 20 pixels from the top of the viewport */
+  left: 635px; /* 20 pixels from the left of the viewport */
+  width: 100px; /* Optional: Adjust the width of the image */
+  height: auto; /* Keeps the aspect ratio */
+}
+
+.fixed4 {
+  position: fixed; /* Makes the image fixed relative to the viewport */
+  top: 530px; /* 20 pixels from the top of the viewport */
+  left: 650px; /* 20 pixels from the left of the viewport */
+  width: 80px; /* Optional: Adjust the width of the image */
+  height: auto; /* Keeps the aspect ratio */
+}
