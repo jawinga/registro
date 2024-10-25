@@ -160,41 +160,41 @@ body {
 }
 
 .fixed-image {
-  position: fixed; /* Makes the image fixed relative to the viewport */
-  top: 20px; /* 20 pixels from the top of the viewport */
-  left: 20px; /* 20 pixels from the left of the viewport */
-  width: 100px; /* Optional: Adjust the width of the image */
-  height: auto; /* Keeps the aspect ratio */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: auto;
 }
 
 .fixed1 {
-  position: fixed; /* Makes the image fixed relative to the viewport */
-  top: 430px; /* 20 pixels from the top of the viewport */
-  left: 565px; /* 20 pixels from the left of the viewport */
-  width: 120px; /* Optional: Adjust the width of the image */
-  height: auto; /* Keeps the aspect ratio */
+  position: fixed;
+  top: 430px;
+  left: 565px;
+  width: 120px;
+  height: auto;
 }
 
 .fixed2 {
-  position: fixed; /* Makes the image fixed relative to the viewport */
-  top: 290px; /* 20 pixels from the top of the viewport */
-  left: 335px; /* 20 pixels from the left of the viewport */
-  width: 100px; /* Optional: Adjust the width of the image */
-  height: auto; /* Keeps the aspect ratio */
+  position: fixed;
+  top: 290px;
+  left: 335px;
+  width: 100px;
+  height: auto;
 }
 
 .fixed3 {
-  position: fixed; /* Makes the image fixed relative to the viewport */
-  top: 310px; /* 20 pixels from the top of the viewport */
-  left: 635px; /* 20 pixels from the left of the viewport */
-  width: 100px; /* Optional: Adjust the width of the image */
-  height: auto; /* Keeps the aspect ratio */
+  position: fixed;
+  top: 310px;
+  left: 635px;
+  width: 100px;
+  height: auto;
 }
 
 .fixed4 {
-  position: fixed; /* Makes the image fixed relative to the viewport */
-  top: 530px; /* 20 pixels from the top of the viewport */
-  left: 650px; /* 20 pixels from the left of the viewport */
-  width: 80px; /* Optional: Adjust the width of the image */
-  height: auto; /* Keeps the aspect ratio */
+  position: fixed;
+  top: 530px;
+  left: 650px;
+  width: 80px;
+  height: auto;
 }
